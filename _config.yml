@@ -5,9 +5,7 @@ title: Altera Wiki
 description: "Community Wiki to share knowledge."
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: jekyll/minima
 
 #################################################################################
 # --- You don't need to touch anything below here (but you can if you want) --- #

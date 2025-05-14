@@ -3,9 +3,11 @@ layout: page
 title: About
 ---
 
-A Collaborative Space for FPGA Enthusiasts
+## A Collaborative Space for FPGA Enthusiasts
 
-## About About Pages
+If you’re passionate about FPGA development, you know how challenging and rewarding it can be. Whether you’re designing high-performance systems, learning the ropes, or troubleshooting complex configurations, there’s always something new to discover in the world of Field Programmable Gate Arrays (FPGAs). That’s why I’m excited to introduce the Altera Wiki, a community-driven platform created to share knowledge, experiences, and resources related to Altera FPGAs.
+
+## About Pages
 
 If you’re passionate about FPGA development, you know how challenging and rewarding it can be. Whether you’re designing high-performance systems, learning the ropes, or troubleshooting complex configurations, there’s always something new to discover in the world of Field Programmable Gate Arrays (FPGAs). That’s why I’m excited to introduce the Altera Wiki, a community-driven platform created to share knowledge, experiences, and resources related to Altera FPGAs.
 The About page is a common convention found on websites.

@@ -13,7 +13,8 @@ kramdown:
 title: Altera Wiki
 author:
   name: Altera
-  url: https://altera.com/
+
+url: https://altera.com/
 description: "Great site about Altera Wiki."
 
 # Build settings

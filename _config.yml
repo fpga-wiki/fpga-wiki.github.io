@@ -15,7 +15,7 @@ author:
   name: Altera
 
 url: https://altera.com/
-description: "Great site about Altera Wiki."
+description: "Community Wiki to share knowledge."
 
 # Build settings
 remote_theme: jekyll/minima

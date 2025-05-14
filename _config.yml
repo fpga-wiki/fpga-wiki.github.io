@@ -11,6 +11,9 @@ kramdown:
 
 # Site settings
 title: Altera Wiki
+author:
+  name: Altera
+  website: https://altera.com/
 description: "Great site about Altera Wiki."
 
 # Build settings

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Intro to the Altera Wiki
-tags: first markdown example
-categories: Wiki
+modified:
+categories: blog
+excerpt:
+tags: Introduction
+date: 2025-05-14T08:08:50-04:00
 ---
 
 ## Introducing the Altera Wiki: A Collaborative Space for FPGA Enthusiasts

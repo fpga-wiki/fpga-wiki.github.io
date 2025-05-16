@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reference Desogm
+title: Reference Design
 excerpt: "An archive of reference design sorted by date."
 search_omit: true
 ---

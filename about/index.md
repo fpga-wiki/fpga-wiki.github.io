@@ -1,26 +1,27 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About the Altera Wiki
+modified: 2025-05-16T19:44:38.564948-04:00
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+## A Collaborative Space for FPGA Enthusiasts
 
-## So Simple Theme is all about:
+If you’re passionate about FPGA development, you know how challenging and rewarding it can be. Whether you’re designing high-performance systems, learning the ropes, or troubleshooting complex configurations, there’s always something new to discover in the world of Field Programmable Gate Arrays (FPGAs). That’s why I’m excited to introduce the Altera Wiki, a community-driven platform created to share knowledge, experiences, and resources related to Altera FPGAs.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+## About Pages
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+If you’re passionate about FPGA development, you know how challenging and rewarding it can be. Whether you’re designing high-performance systems, learning the ropes, or troubleshooting complex configurations, there’s always something new to discover in the world of Field Programmable Gate Arrays (FPGAs). That’s why I’m excited to introduce the Altera Wiki, a community-driven platform created to share knowledge, experiences, and resources related to Altera FPGAs.
+The About page is a common convention found on websites.
+It is your opportunity to let us know all the details "about" your project:
 
-[^1]: Example: *domain.com/category-name/post-title*
+-In-Depth Tutorials: Step-by-step guides on everything from getting started with FPGA development to advanced topics like custom logic design and hardware debugging.
+
+-Technical Documentation: Detailed explanations of Altera FPGA features, architectures, and tools.
+
+-Problem-Solving Tips: A collection of FAQs and troubleshooting advice from both beginners and experts in the community.
+
+-Best Practices: Insights on optimizing your FPGA projects, from design flow to performance tuning.
+
+-Case Studies and Projects: Examples of real-world applications and custom FPGA designs that can inspire your next project.
+
+And the best part? It’s all community-driven. Whether you’re a seasoned FPGA pro or just starting, you can contribute your own knowledge, tips, or solutions to help others.

@@ -1,10 +1,36 @@
-theme: minima
-
 # Site settings
 title: Altera Wiki
 description: "Community Wiki to share knowledge."
 url: "https://altera.com/" # the base hostname & protocol for your site, e.g. http://example.com
-  
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
@@ -47,34 +73,17 @@ heading_anchors: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# Google Analytics Tracking (optional)
-# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
-# Note: the main Just the Docs site does *not* use Google Analytics.
-# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
-# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-sitemap
-
-home_post_limit: 5
-
-# Disable highlighting to use highlightJS instead
-# highlighter: none # Not supported by GitHub Pages
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
 kramdown:
+  input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
-    block:
+    span:
       line_numbers: false
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-  # ignore:
-  #   envs: all
+    block:
+      line_numbers: true
+      start_line: 1

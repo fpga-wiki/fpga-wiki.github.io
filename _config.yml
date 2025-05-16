@@ -1,3 +1,4 @@
+theme: minima
 
 # Site settings
 title: Altera Wiki
@@ -53,12 +54,4 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-  # ignore:
-  #   envs: all
+home_post_limit: 5

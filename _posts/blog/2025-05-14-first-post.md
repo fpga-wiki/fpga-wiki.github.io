@@ -4,7 +4,7 @@ title: Intro to the Altera Wiki
 modified:
 categories: blog
 excerpt:
-tags: Introduction
+tags: [Introduction]
 date: 2025-05-14T08:08:50-04:00
 ---
 

@@ -26,29 +26,8 @@
         {% endif %}
       </header>
       <footer class="entry-meta">
-        {% if page.author %}
-           <div class="md-post__authors md-typeset">
-                {% for author in page.authors %}
-                  <div class="md-profile md-post__profile">
-                    <span class="md-author md-author--long">
-                      <img src="{{ author.avatar | url }}" alt="{{ author.name }}" />
-                    </span>
-                     <span class="md-profile__description">
-                      <strong>
-                        {% if author.url %}
-                          <a href="{{ author.url | url }}">{{ author.name }}</a>
-                        {% else %}
-                          {{ author.name }}
-                        {% endif %}
-                      </strong>
-                      <br />
-                      {{ author.description }}
-                    </span>
-                </div>
-                {% endfor %}
-            </div>
-        {% endif %}
         <span class="author vcard">By <span class="fn">{{ author.name }}</span></span>
+        {% if page.author %}<span class="entry-author name"><time datetime="{{ page.author }}"><i class="fa fa-pencil"></i> {{ page.author" }}</span>{% endif %}
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
         {% if site.owner.disqus-shortname and page.comments or site.comments %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}

@@ -15,7 +15,7 @@ search_omit: true
   {% endunless %}{% endfor %}
 </ul>
 
-{% for item in (0..site.familes.size) %}{% unless forloop.last %}
+{% for item in (0..site.families.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ families_list[item] | strip_newlines }}{% endcapture %}
   <h2 id="{{ this_word }}">{{ this_word }}</h2>
   <ul class="post-list">

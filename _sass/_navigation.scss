@@ -5,7 +5,7 @@
 .nav-logo-container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Or flex-start if logo should hug left */
+  justify-content: flex-start; /* Or flex-start if logo should hug left */
 }
 
 .site-logo {

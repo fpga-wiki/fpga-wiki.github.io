@@ -2,6 +2,30 @@
    Top navigation
    ========================================================================== */
 
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Or flex-start if logo should hug left */
+}
+
+.site-logo {
+  margin-right: 20px; /* Spacing between logo and nav */
+}
+
+#site-nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#site-nav li a {
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+}
+
 .navigation-wrapper {
   text-align: center;
   @include clearfix;

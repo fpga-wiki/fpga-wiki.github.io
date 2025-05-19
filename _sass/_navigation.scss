@@ -2,20 +2,6 @@
    Top navigation
    ========================================================================== */
 
-.nav-logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Or flex-start if logo should hug left */
-}
-
-.site-logo {
-  margin-right: 5px; /* Spacing between logo and nav */
-}
-
-/* ==========================================================================
-   Top navigation
-   ========================================================================== */
-
 .navigation-wrapper {
   text-align: center;
   @include clearfix;

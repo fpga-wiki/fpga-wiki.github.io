@@ -1,11 +1,10 @@
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
-	 {% if site.logo %}
-      <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.masthead_title }}">
-        <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="100" alt="{{ site.masthead_title }} logo">
-      </a>
-      {% for link in site.data.navigation %}
+	{% if site.logo %}
+      		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.masthead_title }}"> <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="100" alt="{{ site.masthead_title }} logo"></a>
+	{% endif %}
+	{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
 		        {% else %}

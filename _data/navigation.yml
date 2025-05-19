@@ -8,12 +8,6 @@
 
 - title: Example
   url: /ref_design/
-  sublinks:
-  - title: Max10
-    url: /Max10/ 
-  
-- title: Max10
-  url: /Max10/ 
   
 - title: Search
   url: /search/

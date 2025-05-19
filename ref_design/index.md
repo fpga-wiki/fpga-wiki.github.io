@@ -8,7 +8,7 @@ search_omit: true
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
 
-[#Max 10](/Max10/)
+#[Max 10](/Max10/)
 
 <ul class="post-list">
 {% for post in site.categories.ref_design %} 

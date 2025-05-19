@@ -1,7 +1,4 @@
 <div class="navigation-wrapper">
-	{% if site.logo %}
-      		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"> <img src="{{ site.url }}/images/{{ site.logo }}" width="100" height="50" alt="{{ site.title }} logo"></a>
-	{% endif %}
 	<nav role="navigation" id="site-nav" class="animated drop">
       		<ul>
 			{% for link in site.data.navigation %}
@@ -16,6 +13,9 @@
 	</nav>
 </div><!-- /.navigation-wrapper -->
 
+{% if site.logo %}
+      	<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"> <img src="{{ site.url }}/images/{{ site.logo }}" width="100" height="50" alt="{{ site.title }} logo"></a>
+{% endif %}
 
 {% include browser-upgrade.html %}
 

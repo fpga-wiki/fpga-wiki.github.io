@@ -5,9 +5,6 @@ excerpt: "An archive of reference design sorted by date."
 search_omit: true
 ---
 
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-{% assign tags_list = site_tags | split:',' | sort %}
-
 **[Max 10](/Max10/)**
 
 <ul class="post-list">

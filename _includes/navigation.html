@@ -1,4 +1,5 @@
 <div class="navigation-wrapper">
+  <div class="nav-logo-container">
 	{% if site.logo %}
       		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.masthead_title }}"> <img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="100" alt="{{ site.masthead_title }} logo"></a>
 	{% endif %}
@@ -14,6 +15,7 @@
 		  	{% endfor %}
 	    	</ul>
 	</nav>
+  </div>
 </div><!-- /.navigation-wrapper -->
 
 {% include browser-upgrade.html %}

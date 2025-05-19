@@ -4,7 +4,7 @@
 
 .nav-logo-container {
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: space-between; /* Or flex-start if logo should hug left */
 }
 
@@ -17,7 +17,7 @@
    ========================================================================== */
 
 .navigation-wrapper {
-  text-align: right;
+  text-align: center;
   @include clearfix;
 
   ul {

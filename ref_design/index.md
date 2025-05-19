@@ -8,14 +8,7 @@ search_omit: true
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tags_list = site_tags | split:',' | sort %}
 
-<ul class="tag-box inline">
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-	{% if this_word contains 'Max10' %}
-		<li><a href="#{{ this_word }}">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
-	{% endif %}
-  {% endunless %}{% endfor %}
-</ul>
+[Max 10](/Max10/)
 
 <ul class="post-list">
 {% for post in site.categories.ref_design %} 

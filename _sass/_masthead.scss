@@ -20,9 +20,7 @@
 
   img {
     width: 100px;
-    height: 100px;
-    @include animation-duration(1s);
-    @include animation-delay(.05s);
+    height: 50px;
     border: 4px solid $white;
   }
 }

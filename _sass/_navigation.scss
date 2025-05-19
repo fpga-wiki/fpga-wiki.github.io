@@ -74,7 +74,10 @@
    ========================================================================== */
 
 #site-nav {
-  display: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
   z-index: 5;
 
   @include media($medium) {
@@ -97,6 +100,8 @@
 
     li {
       float: none;
+      text-decoration: none;
+      padding: 8px 12px;
 
       @include media($medium) {
         float: left;

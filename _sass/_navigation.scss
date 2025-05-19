@@ -4,12 +4,12 @@
 
 .nav-logo-container {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-between; /* Or flex-start if logo should hug left */
 }
 
 .site-logo {
-  margin-right: 20px; /* Spacing between logo and nav */
+  margin-right: 5px; /* Spacing between logo and nav */
 }
 
 /* ==========================================================================
@@ -17,14 +17,14 @@
    ========================================================================== */
 
 .navigation-wrapper {
-  text-align: center;
+  text-align: right;
   @include clearfix;
 
   ul {
     display: inline-block;
     width: 50%;
     vertical-align: top;
-    margin: 0 0 50px;
+    margin: 0 0 10px;
     padding: 4px 20px;
     background-color: $black;
 

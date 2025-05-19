@@ -142,7 +142,7 @@ body {
 }
 .site-logo {
 	img {
-		width: 100px;
+		width: 200px;
 		height: 100px;
 		@include animation-duration(1s);
 	    @include animation-delay(.05s);
@@ -155,7 +155,7 @@ body {
 		}
 		@include media($large) {
 			width: 200px;
-			height: 200px;
+			height: 100px;
 			@include rounded(200px);
 		}
 	}

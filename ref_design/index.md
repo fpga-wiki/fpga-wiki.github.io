@@ -11,7 +11,7 @@ search_omit: true
 <ul class="tag-box inline">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-	{% if this_word contains 'max10' %}
+	{% if this_word contains 'Max10' %}
 		<li><a href="#{{ this_word }}">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
 	{% endif %}
   {% endunless %}{% endfor %}

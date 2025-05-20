@@ -56,6 +56,16 @@
   }
 }
 
+.branding {
+  display: flex;
+  align-items: center;  /* vertically align logo and text */
+  gap: 20px;            /* space between logo and text */
+}
+.text-branding {
+  display: flex;
+  flex-direction: column;
+}
+
 /*
    Site title/name
    ========================================================================== */

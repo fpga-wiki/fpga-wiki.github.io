@@ -61,8 +61,9 @@
   align-items: center;  /* vertically align logo and text */
   gap: 20px;            /* space between logo and text */
 }
+
 .text-branding {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
 }
 

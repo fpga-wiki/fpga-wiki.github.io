@@ -72,6 +72,7 @@
    ========================================================================== */
 
 .site-title {
+  margin-top: 40px;
   margin-bottom: 0;
   @include animation-duration(1s);
   @include animation-delay(.75s);

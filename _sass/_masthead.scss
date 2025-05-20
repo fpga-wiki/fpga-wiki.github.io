@@ -57,7 +57,8 @@
 }
 
 .branding {
-  display: flex;
+  display: inline-block;
+  width: 100%;
   align-items: center;  /* vertically align logo and text */
   gap: 20px;            /* space between logo and text */
 }

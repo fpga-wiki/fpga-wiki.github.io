@@ -34,16 +34,18 @@
 .site-logo {
 
   img {
-    width: 100px;
+    width: 200px;
     height: 100px;
 
     @include media($medium) {
-      width: 150px;
+      width: 300px;
       height: 150px;
+      @include animation-duration(1s);
+      @include animation-delay(.05s);
     }
 
     @include media($large) {
-      width: 200px;
+      width: 400px;
       height: 200px;
     }
   }

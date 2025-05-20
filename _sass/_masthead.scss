@@ -64,7 +64,6 @@
 
 .text-branding {
   display: inline-block;
-  padding-top: 140px;
   flex-direction: column;
 }
 
@@ -73,6 +72,7 @@
    ========================================================================== */
 
 .site-title {
+  padding-top: 140px;
   margin-bottom: 0;
   @include animation-duration(1s);
   @include animation-delay(.75s);

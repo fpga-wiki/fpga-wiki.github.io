@@ -1,13 +1,7 @@
-<header class="masthead">
-	<div class="wrap">
-	   <div class="branding">	
-     		 {% if site.logo != null %}
-  			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="100" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-      		{% endif %}
-		   
-	<div class="navigation-wrapper">
+<div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
+		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="100" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
       {% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
@@ -19,9 +13,6 @@
 	    </ul>
 	</nav>
 </div><!-- /.navigation-wrapper -->
-	</div>
-</div>
-</header><!-- /.masthead -->
 
 {% include browser-upgrade.html %}
 

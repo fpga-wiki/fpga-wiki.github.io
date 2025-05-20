@@ -1,7 +1,7 @@
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
-		<li><a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="20" height="10" alt="{{ site.title }} logo" class="animated fadeInDown"></a></li>
+		<li><a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="2" height="1" alt="{{ site.title }} logo" class="animated fadeInDown"></a></li>
       {% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}

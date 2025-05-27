@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro to the Altera Wiki
+title: Intro to the FPGA Wiki
 modified:
 categories: blog
 excerpt:
@@ -8,14 +8,14 @@ tags: [Introduction]
 date: 2025-05-14T08:08:50-04:00
 ---
 
-## Introducing the Altera Wiki: A Collaborative Space for FPGA Enthusiasts
+## Introducing the FPGA Wiki: A Collaborative Space for FPGA Enthusiasts
 
-If you’re passionate about FPGA development, you know how challenging and rewarding it can be. Whether you’re designing high-performance systems, learning the ropes, or troubleshooting complex configurations, there’s always something new to discover in the world of Field Programmable Gate Arrays (FPGAs). That’s why I’m excited to introduce the Altera Wiki, a community-driven platform created to share knowledge, experiences, and resources related to Altera FPGAs.
+If you’re passionate about FPGA development, you know how challenging and rewarding it can be. Whether you’re designing high-performance systems, learning the ropes, or troubleshooting complex configurations, there’s always something new to discover in the world of Field Programmable Gate Arrays (FPGAs). That’s why I’m excited to introduce the FPGA Wiki, a community-driven platform created to share knowledge, experiences, and resources related to Altera FPGAs.
 
-## Why Altera Wiki?
-The Altera Wiki was built with a simple mission: to bring together FPGA enthusiasts, engineers, and developers in one place where we can share insights, solve problems, and advance the collective knowledge base. As a user of Altera FPGAs myself, I’ve often found myself searching for solutions, tips, or tutorials, and sometimes the information wasn’t easy to find or not consolidated in one place. That’s why this Wiki was created — to make FPGA knowledge more accessible, collaborative, and organized.
+## Why FPGA Wiki?
+The FPGA Wiki was built with a simple mission: to bring together FPGA enthusiasts, engineers, and developers in one place where we can share insights, solve problems, and advance the collective knowledge base. As a user of Altera FPGAs myself, I’ve often found myself searching for solutions, tips, or tutorials, and sometimes the information wasn’t easy to find or not consolidated in one place. That’s why this Wiki was created — to make FPGA knowledge more accessible, collaborative, and organized.
 
-## What You’ll Find on the Altera Wiki
+## What You’ll Find on the FPGA Wiki
 The Altera Wiki is designed to be a comprehensive resource hub for anyone working with Altera FPGAs. Here’s a glimpse of what you can expect:
 
 In-Depth Tutorials: Step-by-step guides on everything from getting started with FPGA development to advanced topics like custom logic design and hardware debugging.
@@ -36,7 +36,7 @@ You might be wondering why a Wiki was chosen as the platform for this initiative
 A Wiki also means that you have a direct hand in shaping the content. If you’ve got an FPGA breakthrough or solved a tricky problem, you can add that knowledge to the Wiki for others to benefit from. By leveraging the collective expertise of the community, we can build a living, breathing resource that keeps getting better.
 
 ## How Can You Get Involved?
-The Altera Wiki is open to anyone who wants to share, learn, and contribute. Here’s how you can get started:
+The FPGA Wiki is open to anyone who wants to share, learn, and contribute. Here’s how you can get started:
 
 Explore: Dive into the articles and resources already available on the site. You might find solutions to problems you’ve been struggling with or discover new ways to approach your projects.
 
@@ -46,7 +46,7 @@ Discuss: Use the discussion pages to talk about specific topics, ask questions, 
 
 The more people contribute, the more valuable the Wiki becomes for everyone. Together, we can create an environment where no FPGA question is left unanswered.
 
-## Looking Ahead: What’s Next for the Altera Wiki?
+## Looking Ahead: What’s Next for the FPGA Wiki?
 While the Altera Wiki is already packed with useful content, there’s so much more on the horizon. I’m constantly working on adding new tutorials, guides, and technical insights. Here’s a sneak peek at some future updates:
 
 More in-depth case studies and examples from the community.
@@ -57,7 +57,7 @@ Interactive resources like live demos or simulations (stay tuned for that!).
 
 And of course, a growing list of community-contributed content that will keep the Wiki fresh and up-to-date.
 
-## Join the Altera Wiki Today
-I invite you to visit the Altera Wiki, explore the content, and contribute your own knowledge and experiences. Whether you’re just getting started or you’ve been designing with FPGAs for years, there’s something here for you.
+## Join the FPGA Wiki Today
+I invite you to visit the FPGA Wiki, explore the content, and contribute your own knowledge and experiences. Whether you’re just getting started or you’ve been designing with FPGAs for years, there’s something here for you.
 
-Let’s build a valuable resource that will help all of us become better at what we do. Visit the Altera Wiki now and be part of the FPGA knowledge-sharing revolution!
+Let’s build a valuable resource that will help all of us become better at what we do. Visit the FPGA Wiki now and be part of the FPGA knowledge-sharing revolution!

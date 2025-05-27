@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: Altera Wiki
+title: FPGA Wiki
 locale: en_US
 description: Community Wiki to share knowledge
 logo: site-logo.png
-url: https://altera-wiki.github.io
+url: https://fpga-wiki.github.io
 
 # Jekyll configuration
 

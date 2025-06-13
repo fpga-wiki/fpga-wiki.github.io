@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Altera Wiki
+title: About the FPGA Wiki
 modified: 2025-05-16T19:44:38.564948-04:00
 ---
 

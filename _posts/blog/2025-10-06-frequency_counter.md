@@ -4,7 +4,7 @@ title: Locked or Lost? Trust, But Verify with a Frequency Counter
 modified:
 categories: blog
 excerpt:
-tags: [Introduction]
+tags: [code_reuse]
 date: 2025-10-06T20:41:50-04:00
 ---
 

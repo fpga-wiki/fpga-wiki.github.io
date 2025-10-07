@@ -16,7 +16,7 @@ How do you know the reference clock (refclk) feeding the PLL is correct? And how
 Because in hardware validation, it’s never too much to double-check. Trust the lock signal—but verify it.
 
 ## Simulation waveform
-Found the frequency checker from the F-tile DPHY Example Design to be extremely helpful. Extracted the codes and simulated it. Here are the results: 
+Here are the results of the frequency_checker.v: frequency_checker.wlf
 
 Overview
 --------
